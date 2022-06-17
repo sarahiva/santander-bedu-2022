@@ -85,3 +85,44 @@ li {
     margin-top: 140px;
     text-align: center;
 }
+
+/*Sesion 3*/
+.flex-container {
+    display: flex;
+    margin: 100px auto;
+    width: 70%;
+    align-items: center;
+}
+
+.info-promo {
+    margin-left: 50px;
+}
+
+h2 {
+    color: #025157;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+}
+
+.flex-container p {
+    color: #343434;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container > img {
+    width: 25%;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}

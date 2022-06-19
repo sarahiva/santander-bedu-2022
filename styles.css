@@ -11,14 +11,35 @@ h1 {
 }
 
 p {
-    color: #8b8b8bcc;
+    color: #46484c;
     font-family: Verdana;
     font-size: 20px;
 }
 
-button {
-    color: #fff;
+.p-button {
     background-color: #025157;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    height: 55px;
+    padding: 12px 14px;
+}
+
+input {
+    font-size: 20px;
+    padding: 12px 14px;
+    border-radius: 5px;
+    border: 1px solid #8b8b8bcc;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.secondary-text {
+    color: #8b8b8bcc;
 }
 
 /*Sesion 2*/
@@ -82,31 +103,33 @@ li {
     padding: 12px 14px;
 }
 .main {
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
 
 /*Sesion 3*/
 .flex-container {
+    align-items: center;
     display: flex;
     margin: 100px auto;
     width: 70%;
-    align-items: center;
 }
 
 .info-promo {
     margin-left: 50px;
 }
 
-h2 {
+.info-promo h2, .testimonios-info h2 {
     color: #025157;
-    text-align: center;
+    line-height: 48px;
     font-family: 'Alegreya', serif;
     font-weight: 900;
+    font-size: 50px;
 }
 
-.flex-container p {
+.info-promo p {
     color: #343434;
+    font-size: 16px;
 }
 
 .video-container {
@@ -117,12 +140,85 @@ h2 {
 
 .video-container > img {
     width: 25%;
+    margin-top: 10px;
 }
 
 .fixed-header {
+    background-color: #fffbf7;
+    left: 0;
     position: fixed;
     top: 0;
-    left: 0;
     right: 0;
-    background-color: #fffbf7;
+}
+
+/*Postwork sesion 3*/
+.testimonios {
+    align-items: center;
+    background-color: #a1d683;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.testimonios-info{
+    width: 45%;
+    margin-right: 40px;
+}
+
+.testimonios-info p {
+    font-size: 18px;
+    color: #343434;
+}
+
+.testimonios-info img {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.testimonios-card {
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    width: 25%;
+}
+
+.testimonios-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 250px;
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;
+}
+
+.card-body h3 {
+    color: #025157;
+    font-family: 'Alegreya', serif;
+}
+
+.card-body button {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.card-logo {
+    align-items: center;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 25px;
+    top: 28%;
+    width: 100px;
+    height: 100px;
+}
+
+.card-logo img { 
+    width: 80%;
+    height: auto;
 }

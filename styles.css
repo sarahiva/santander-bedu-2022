@@ -1,3 +1,10 @@
+/*
+font-family: 'Alegreya', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
 body {
     background-color: #fffbf7;
 }
@@ -12,7 +19,7 @@ h1 {
 
 p {
     color: #46484c;
-    font-family: Verdana;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
@@ -91,7 +98,8 @@ li {
     margin: 0 10px;
 }
 
-.actions a, .feature-card-info a {
+.actions a, 
+.feature-card-info a {
     color: #67b54b;
 }
 
@@ -119,7 +127,10 @@ li {
     margin-left: 50px;
 }
 
-.info-promo h2, .testimonios-info h2 {
+/*.info-promo h2,
+.testimonios-info h2,
+.matcha-work h2 */
+h2 {
     color: #025157;
     line-height: 48px;
     font-family: 'Alegreya', serif;
@@ -182,11 +193,15 @@ li {
     width: 25%;
 }
 
-.testimonios-card img {
+.testimony-profile {
+    height: 250px;
+}
+
+.testimony-profile img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    height: 250px;
     width: 100%;
+    height: 100%;
 }
 
 .card-body {
@@ -216,6 +231,7 @@ li {
     top: 28%;
     width: 100px;
     height: 100px;
+    z-index: 1;
 }
 
 .card-logo img { 
@@ -254,12 +270,12 @@ li {
 }
 
 .feature-card-info h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
 }
 
 .feature-card-info p {
-    font-family: Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #7e7e7e;
 }
@@ -272,4 +288,69 @@ li {
 .feature-card-img img {
     align-self: center;
     width: 100%;
+}
+
+/*Sesion 4 - PostWork*/
+.matcha-work {
+    background-color: #fffbf7;
+    padding: 2rem 6rem;
+}
+
+.matcha-work-info {
+    text-align: center;
+}
+
+.matcha-work-info a {
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.matcha-work-cards {
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr );
+    column-gap: 1rem;
+    margin-top: 3rem;
+}
+
+.matcha-work-card {
+    background-color: white;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+h3 {
+    color: #025157;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.matcha-work-card-img {
+    height: 14rem;
+}
+
+.matcha-work-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.matcha-work-card p {
+    color: #46484c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.matcha-work-card a {
+    color: #67b54b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 1rem;
 }

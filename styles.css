@@ -23,6 +23,12 @@ p {
     font-size: 20px;
 }
 
+label {
+    color: #025157;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
 .p-button {
     background-color: #025157;
     border: none;
@@ -376,27 +382,12 @@ h3 {
         width: 100%;
     }
 
-    .info-promo > form, .form {
-        flex-direction: column;
+    .formOne {
+        margin: 2rem;
     }
-
-
-    .info-promo > form > div {
-        height: 50px;
-        margin-top: 25px;
-    }
-
-    .info-promo > form > div > input {
-        width: 85%;
-    }
-
-    .form > input {
-        margin: 0.5rem 0;
-    }
-
+    
     .flex-container {
         flex-direction: column;
-        max-width: 90%;
     }
 
     .video-container > video {
@@ -405,11 +396,28 @@ h3 {
 
     .info-promo {
         margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
     }
 
+    .info-promo > form, .form {
+        flex-direction: column;
+    }
+
+    .p-button {
+        margin-top: 0.5rem;
+    }
+    
     .info-promo > h2, h2 {
         font-size: 25px;
         line-height: 1.2;
+    }
+
+    .info-promo p, 
+    .feature-card-info p,
+    .matcha-work-card p {
+        font-size: 18px;
+        font-weight: normal;
     }
 
     .features {
@@ -417,21 +425,44 @@ h3 {
         padding: 1rem;
     }
 
-    .feature-card-img > img {
+    .feature-card-img{
         display: none;
     }
     
     .feature-card-info {
+        padding: 1rem;
         width: 100%;
     }
 
     .testimonios {
         flex-direction: column;
+        justify-content: center;
     }
 
     .testimonios-info {
         width: 90%;
+        margin-right: 0;
     }
+
+    .testimonios-info > img, 
+    .card-body > .p-button {
+        width: 100%;
+    }
+
+    .testimonios-card {
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    .matcha-work {
+        padding: 2rem 1rem;
+    }
+
+    .matcha-work-cards {
+        grid-template: repeat(4, 1fr) / 1fr;
+        row-gap: 1rem;
+    }
+
 }
 
     /** dispositivos pequeños en vista landscape (horizontal) */

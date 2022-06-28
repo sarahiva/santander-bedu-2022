@@ -365,9 +365,9 @@ h3 {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
-    .navbar,
-    .actions {
-        display: none;
+
+    .logo {
+        width: 30%;
     }
 
     h1 {

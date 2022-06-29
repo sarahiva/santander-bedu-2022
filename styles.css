@@ -96,6 +96,7 @@ li {
 }
 
 .navbar {
+    background-color: #fffbf7;
     color: #025157;
     font-weight: 500;
     text-align: left;
@@ -124,7 +125,7 @@ li {
     padding: 12px 14px;
 }
 .main {
-    margin-top: 350px;
+    margin-top: 280px;
     text-align: center;
 }
 
@@ -361,10 +362,124 @@ h3 {
     padding: 0 1rem;
 }
 
+/*Work sesion 6*/
+
+.success-stories {
+    background-color: #a1d683;
+    padding: 4rem 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.success-stories .overview {
+    width: 60%;
+    padding-right: 2rem;
+}
+
+.success-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.stories-carousel {
+    width: 40%;
+}
+
+/* Cambiamos el alto mínimo de la tarjeta, para que se vea bien en responsive */
+.success-stories .card {
+    max-width: 370px;
+    width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+  /* Con object-fit, hacemos que la imagen se ajuste a la medida de su contenedor y limitamos su alto */
+.success-stories .card img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+  /* Agregamos position: relative para recibir un elemento con position:absolute más adelante */
+.success-stories .card .card-body {
+    max-width: 370px;
+    width: 100%;
+    position: relative;
+    padding: 40px 1rem 1rem;
+}
+
+.success-stories .card .card-body .results {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.success-stories .card .card-body .results img {
+    width: 26px;
+    margin-right: 20px;
+}
+
+.success-stories .card .card-body .results p {
+    margin: 0;
+}
+
+.success-stories .card .card-footer button {
+    width: 100%;
+}
+
+.success-stories .card .card-footer {
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+}
+
+  /* Aqui hacemos un círculo con CSS! Este se posicionará en el margen superior de .card-body */
+.success-stories .card .card-body .card-circle {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:-45px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+  /* Cada círculo tiene su propio color. Verifica qué significa este selector: .card-circle.everly */
+.success-stories .card .card-body .card-circle.everly {
+    background-color: #f9da73;
+    border: 5px solid #f9da73;
+}
+
+/* Los círculos deben recibir la imagen y ajustarla al tamaño */
+.success-stories .card .card-body .card-circle.everly img {
+    object-fit: contain;
+    width: 100%;
+}
+
 /*Work sesion 5*/
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
+    .actions,
+    .navbar {
+        text-align: center;
+    }
 
     .logo {
         width: 30%;

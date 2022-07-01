@@ -1,0 +1,19 @@
+{
+  "name": "santander-dw",
+  "version": "1.0.0",
+  "description": "(Mi sitio)[https://stellular-trifle-348777.netlify.app/]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahiva/santander-bedu-2022.git"
+  },
+  "author": "Sarahi Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahiva/santander-bedu-2022/issues"
+  },
+  "homepage": "https://github.com/sarahiva/santander-bedu-2022#readme"
+}

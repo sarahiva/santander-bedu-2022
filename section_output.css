@@ -1,0 +1,90 @@
+/*Colores*/
+/** fuentes */
+.try-Matcha h2 {
+  font-family: "Alegreya", serif;
+  color: #135359;
+}
+
+.try-Matcha form > *, .try-Matcha-box .column-2 form > * {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  height: 55px;
+}
+
+.try-Matcha form button, .try-Matcha-box .column-2 form button {
+  background-color: #025157;
+  border-style: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #ffffff;
+  padding: 0 20px;
+  margin-left: -10px;
+}
+.try-Matcha form input, .try-Matcha-box .column-2 form input {
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.try-Matcha {
+  background-color: #96d178;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: auto;
+}
+.try-Matcha h2 {
+  font-size: 60px;
+}
+.try-Matcha form {
+  padding-top: 1rem;
+}
+.try-Matcha p {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+.try-Matcha-box {
+  background-color: #245157;
+  border-radius: 5px;
+  display: flex;
+  margin: 2rem auto;
+  padding: 3rem;
+  width: 85%;
+}
+.try-Matcha-box .column-1 {
+  width: 40%;
+}
+.try-Matcha-box .column-1 h3 {
+  color: #ffffff;
+  font-family: "Alegreya", serif;
+  font-size: 34px;
+  text-align: left;
+  margin-right: 20%;
+}
+.try-Matcha-box .column-1 p {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+.try-Matcha-box .column-1 p a {
+  color: #67b54b;
+}
+.try-Matcha-box .column-2 {
+  width: 50%;
+  margin: auto;
+}
+.try-Matcha-box .column-2 form button {
+  background-color: #67b54b;
+}
+.try-Matcha-box .column-2 p {
+  color: #b3cbcd;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-right: 40%;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=section_output.css.map */

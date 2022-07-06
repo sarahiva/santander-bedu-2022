@@ -472,6 +472,11 @@ h3 {
     width: 100%;
 }
 
+/*prework S8*/
+.texto-boton:hover {
+    background-color: #67b54b;
+}
+
 /*Work sesion 5*/
 
 /** dispositivos móviles en vista viewport (vertical) */

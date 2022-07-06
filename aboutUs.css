@@ -1,0 +1,58 @@
+/*Colores*/
+/** fuentes */
+.top-features {
+  margin-top: 150px;
+}
+.top-features .card-title {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 35px;
+  text-decoration: none;
+  text-shadow: #025157 1px 1px 2px;
+  transition: color 0.3s ease-in-out, font-size 1s ease;
+}
+.top-features .card-title:hover {
+  color: #67b54b;
+  font-size: 28px;
+}
+.top-features .arrow-container {
+  margin: 35px auto;
+  height: 180px;
+  position: relative;
+}
+.top-features .arrow-container .arrow {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  animation: arrow_animation 2s linear 2s infinite alternate;
+}
+.top-features .arrow-container .arrow img {
+  transform: rotate(-90deg);
+  width: 90px;
+}
+@keyframes arrow_animation {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 30px;
+    left: 40px;
+  }
+  50% {
+    top: 60px;
+    left: 80px;
+  }
+  75% {
+    top: 100px;
+    left: 120px;
+  }
+  100% {
+    top: 0;
+    left: 150px;
+  }
+}
+
+/*# sourceMappingURL=aboutUs.css.map */

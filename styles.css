@@ -37,6 +37,10 @@ label {
     font-size: 20px;
     height: 55px;
     padding: 12px 14px;
+
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
 }
 
 input {
@@ -473,8 +477,27 @@ h3 {
 }
 
 /*prework S8*/
-.texto-boton:hover {
+
+.p-button span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.p-button.btn-one::after {
+    content: "";
+    width: 100%;
+    height: 100%;
     background-color: #67b54b;
+    position: absolute;
+    z-index: 1;
+    top: -55px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+
+.p-button.btn-one:hover::after {
+    top: 0;
 }
 
 /*Work sesion 5*/
